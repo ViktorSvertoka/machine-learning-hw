@@ -1,5 +1,5 @@
 .company-bg {
-  // padding-bottom: 0;
+  padding-bottom: 0;
   background-color: $primary-white-color;
 }
 
@@ -7,18 +7,18 @@
   background-color: $primary-white-color;
 }
 
-// .company__list {
-//   display: flex;
-//   align-items: flex-start;
-// }
+.company__list {
+  display: flex;
+  align-items: flex-start;
+}
 
-// .company__item {
-//   margin-right: 30px;
+.company__item {
+  margin-right: 30px;
 
-//   &--changing-properties:last-child {
-//     margin-right: 0;
-//   }
-// }
+  &--changing-properties:last-child {
+    margin-right: 0;
+  }
+}
 
 .company__block {
   display: flex;
@@ -30,18 +30,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
-  @media screen and (min-widht: 480px) {
-    width: 480px;
-  }
-
-  @media screen and (min-widht: 768px) {
-    width: 768px;
-  }
-
-  @media screen and (min-widht: 1200px) {
-    width: 1200px;
-  }
 }
 
 .company__title {
