@@ -55,15 +55,21 @@ ul {
   margin-right: auto;
   margin-left: auto;
 
-  @media (min-widht: 480px) {
+  @media screen and (min-widht: 480px) {
     width: 480px;
   }
 
-  @media (min-widht: 768px) {
+  @media screen and (min-widht: 768px) {
     width: 768px;
   }
 
-  @media (min-widht: 1200px) {
+  @media screen and (min-widht: 1200px) {
     width: 1200px;
+  }
+}
+
+@media {
+  body {
+    background-color: orange;
   }
 }

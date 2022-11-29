@@ -34,41 +34,36 @@ ul {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-widht: 480px) {
+@media screen and (min-widht: 480px) {
   .container {
     width: 480px;
   }
 }
-@media (min-widht: 768px) {
+@media screen and (min-widht: 768px) {
   .container {
     width: 768px;
   }
 }
-@media (min-widht: 1200px) {
+@media screen and (min-widht: 1200px) {
   .container {
     width: 1200px;
   }
 }
 
+@media screen and (min-width: 900px) {
+  body {
+    background-color: orange;
+  }
+}
 .header-section {
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid #ececec;
 }
 
-@media (min-widht: 480px) {
+@media screen and (min-widht: 480px) {
   .header-logo {
     margin-left: 20px;
-  }
-}
-@media (min-widht: 768px) {
-  .header-logo {
-    margin-left: 40px;
-  }
-}
-@media (min-widht: 1200px) {
-  .header-logo {
-    margin-left: 60px;
   }
 }
 
