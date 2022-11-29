@@ -220,3 +220,11 @@ sass переменные ($), sass амперсант (&)
 ---
 
 move to projects folder
+
+---
+
+@media screen and (min-widht: 480px) { width: 480px; }
+
+@media screen and (min-widht: 768px) { width: 768px; }
+
+@media screen and (min-widht: 1200px) { width: 1200px; }

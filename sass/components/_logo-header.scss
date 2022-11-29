@@ -1,9 +1,17 @@
 .header-logo {
-  width: 134px;
-  height: 28px;
+  // margin-left: 215px;
+  // width: 145px;
 
-  @media screen and (min-widht: 480px) {
-    margin-left: 16px;
+  @media (min-widht: 480px) {
+    margin-left: 20px;
+  }
+
+  @media (min-widht: 768px) {
+    margin-left: 40px;
+  }
+
+  @media (min-widht: 1200px) {
+    margin-left: 60px;
   }
 }
 
