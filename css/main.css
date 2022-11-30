@@ -56,10 +56,6 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
-  position: fixed;
-}
-
 @media screen and (min-width: 480px) {
   .header-logo {
     margin-left: 50px;
