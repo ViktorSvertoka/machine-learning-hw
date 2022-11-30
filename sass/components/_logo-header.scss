@@ -1,10 +1,10 @@
 .header-logo {
   // margin-left: 215px;
   // width: 145px;
-}
 
-@media screen and (min-widht: 480px) .header-logo {
-  margin-left: 50px;
+  @media screen and (min-width: 480px) {
+    margin-left: 50px;
+  }
 }
 
 .header-logo__black-part {
