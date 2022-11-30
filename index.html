@@ -81,14 +81,33 @@
               >
             </li>
           </ul>
-          <div>
-            <button>
-              <svg class="modal__icon" width="40px" height="40px">
-                <use href="./images/icons.svg#menu-open"></use>
-                <use href="./images/icons.svg#menu-close"></use>
+          <div class="menu">
+            <button
+              class="menu-button is-open"
+              type="button"
+              aria-expanded="false"
+              aria-controls="menu-container"
+              data-menu-button
+            >
+              <svg
+                class="menu-icons"
+                width="40px"
+                height="40px"
+                fill="currentColor"
+                aria-label="перемикач мобільного меню"
+              >
+                <use
+                  class="icon-cross"
+                  href="./images/icons.svg#menu-open"
+                ></use>
+                <use
+                  class="icon-menu"
+                  href="./images/icons.svg#menu-close"
+                ></use>
               </svg>
             </button>
           </div>
+          <div class="menu-container" id="menu-container" data-menu></div>
         </nav>
       </div>
     </header>
@@ -623,6 +642,7 @@
       </address>
     </footer>
     <!--js script-->
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

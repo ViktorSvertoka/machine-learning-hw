@@ -5,7 +5,8 @@
   border-bottom: 1px solid $bdr-color-white;
 }
 
-// .header-container {
-//   display: flex;
-//   align-items: center;
-// }
+.header-container {
+  // display: flex;
+  // align-items: center;
+  position: fixed;
+}
