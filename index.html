@@ -81,14 +81,23 @@
               >
             </li>
           </ul>
-          <div class="menu">
-            <button
-              class="menu-button is-open"
-              type="button"
-              aria-expanded="false"
-              aria-controls="menu-container"
-              data-menu-button
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              class="menu-icons"
+              width="40px"
+              height="40px"
+              fill="currentColor"
+              aria-label="перемикач мобільного меню"
             >
+              <use class="icon-cross" href="./images/icons.svg#menu-open"></use>
+            </svg>
+          </button>
+          <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
               <svg
                 class="menu-icons"
                 width="40px"
@@ -97,17 +106,27 @@
                 aria-label="перемикач мобільного меню"
               >
                 <use
-                  class="icon-cross"
-                  href="./images/icons.svg#menu-open"
-                ></use>
-                <use
                   class="icon-menu"
                   href="./images/icons.svg#menu-close"
                 ></use>
               </svg>
             </button>
+            <ul class="mobile-menu">
+              <li><a href="./index.html" class="link">Студія</a></li>
+              <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+              <li><a href="##" class="link">Контакти</a></li>
+            </ul>
+            <a href="tel:+380961111111" class="tel-menu">+38 096 111 11 11</a>
+            <a href="mailto:info@devstudio.com" class="mail-menu"
+              >info@devstudio.com</a
+            >
+            <ul class="mobile-menu">
+              <li><a href="##" class="link">Instagram</a></li>
+              <li><a href="##" class="link">Twitter</a></li>
+              <li><a href="##" class="link">Facebook</a></li>
+              <li><a href="##" class="link">LinkedIn</a></li>
+            </ul>
           </div>
-          <div class="menu-container" id="menu-container" data-menu></div>
         </nav>
       </div>
     </header>
