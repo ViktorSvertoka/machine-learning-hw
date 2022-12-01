@@ -145,31 +145,6 @@ ul {
   margin-right: 10px;
 }
 
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-@media (max-width: 767px) {
-  .menu {
-    display: none;
-  }
-}
-.menu .link {
-  padding: 10px;
-  color: inherit;
-  text-decoration: none;
-}
-
-.menu .link:hover,
-.menu .link:focus {
-  text-decoration: underline;
-}
-
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
@@ -230,17 +205,99 @@ ul {
   color: #212121;
 }
 
-.mobile-menu {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+.menu-mobile-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.mobile-menu .link {
-  display: block;
-  padding: 10px;
+.menu-mobile-list__item {
+  margin-left: 40px;
+  margin-bottom: 32px;
+}
+.menu-mobile-list__item__item:last-child {
+  margin-bottom: 0;
+}
+
+.menu-mobile-list__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
   color: #212121;
   text-decoration: none;
+}
+.menu-mobile-list__link--active:hover, .menu-mobile-list__link--active:focus {
+  color: #2196f3;
+}
+
+.menu-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-contacts__tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  color: #2196f3;
+  margin-left: 40px;
+  margin-top: 306px;
+  text-decoration: none;
+}
+
+.menu-contacts__mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #757575;
+  margin-left: 40px;
+  margin-top: 32px;
+  text-decoration: none;
+}
+
+.mobile-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mobile-social__item {
+  margin-top: 64px;
+}
+
+.mobile-social__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #2196f3;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.mobile-social__link__link:last-child {
+  margin-right: 0;
 }
 
 .hero-bg {

@@ -81,6 +81,7 @@
               >
             </li>
           </ul>
+          <!-- header menu -->
           <button
             class="menu-toggle js-open-menu"
             aria-expanded="false"
@@ -93,7 +94,10 @@
               fill="currentColor"
               aria-label="перемикач мобільного меню"
             >
-              <use class="icon-cross" href="./images/icons.svg#menu-open"></use>
+              <use
+                class="menu-icons__cross"
+                href="./images/icons.svg#menu-open"
+              ></use>
             </svg>
           </button>
           <div class="menu-container js-menu-container" id="mobile-menu">
@@ -106,26 +110,61 @@
                 aria-label="перемикач мобільного меню"
               >
                 <use
-                  class="icon-menu"
+                  class="menu-icons__menu"
                   href="./images/icons.svg#menu-close"
                 ></use>
               </svg>
             </button>
-            <ul class="mobile-menu">
-              <li><a href="./index.html" class="link">Студія</a></li>
-              <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-              <li><a href="##" class="link">Контакти</a></li>
+            <!-- container menu -->
+            <ul class="menu-mobile-list">
+              <li class="menu-mobile-list__item">
+                <a
+                  class="menu-mobile-list__link menu-mobile-list__link--active"
+                  href="./index.html"
+                  >Студія</a
+                >
+              </li>
+              <li class="menu-mobile-list__item">
+                <a
+                  class="menu-mobile-list__link menu-mobile-list__link--active"
+                  href="./portfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="menu-mobile-list__item">
+                <a
+                  class="menu-mobile-list__link menu-mobile-list__link--active"
+                  href="##"
+                  >Контакти</a
+                >
+              </li>
             </ul>
-            <a href="tel:+380961111111" class="tel-menu">+38 096 111 11 11</a>
-            <a href="mailto:info@devstudio.com" class="mail-menu"
-              >info@devstudio.com</a
-            >
-            <ul class="mobile-menu">
-              <li><a href="##" class="link">Instagram</a></li>
-              <li><a href="##" class="link">Twitter</a></li>
-              <li><a href="##" class="link">Facebook</a></li>
-              <li><a href="##" class="link">LinkedIn</a></li>
-            </ul>
+            <div class="menu-contacts">
+              <a
+                href="tel:+380961111111"
+                class="menu-contacts__tel menu-contacts__tel--active"
+                >+38 096 111 11 11</a
+              >
+              <a
+                href="mailto:info@devstudio.com"
+                class="menu-contacts__mail menu-contacts__mail--active"
+                >info@devstudio.com</a
+              >
+              <ul class="mobile-social">
+                <li class="mobile-social__item">
+                  <a href="##" class="mobile-social__link">Instagram</a>
+                </li>
+                <li class="mobile-social__item">
+                  <a href="##" class="mobile-social__link">Twitter</a>
+                </li>
+                <li class="mobile-social__item">
+                  <a href="##" class="mobile-social__link">Facebook</a>
+                </li>
+                <li class="mobile-social__item">
+                  <a href="##" class="mobile-social__link">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>
