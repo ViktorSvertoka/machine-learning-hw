@@ -64,10 +64,11 @@
   }
 }
 
-// .menu-toggle:hover,
-// .menu-toggle:focus {
-//   background-color: rgba(0, 0, 0, 0.1);
-// }
+.menu-toggle:hover,
+.menu-toggle:focus {
+  fill: #2196f3;
+  // background-color: rgba(0, 0, 0, 0.1);
+}
 
 // .menu-icons__cross:hover {
 //   fill: #2196f3;

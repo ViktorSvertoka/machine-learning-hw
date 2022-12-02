@@ -171,6 +171,11 @@ ul {
     display: none;
   }
 }
+.menu-toggle:hover,
+.menu-toggle:focus {
+  fill: #2196f3;
+}
+
 .menu-icons {
   fill: #2196f3;
 }
