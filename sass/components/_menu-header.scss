@@ -64,10 +64,18 @@
   }
 }
 
-.menu-toggle:hover {
-  fill: #2196f3;
-  // background-color: rgba(0, 0, 0, 0.1);
+.js-open-menu:hover {
+  color: #2196f3;
 }
+
+.js-close-menu:hover {
+  color: #2196f3;
+}
+
+// .menu-toggle:hover {
+//   color: #2196f3;
+//   // background-color: rgba(0, 0, 0, 0.1);
+// }
 
 // .menu-icons__cross:hover {
 //   fill: #2196f3;
@@ -77,9 +85,9 @@
 //   fill: #2196f3;
 // }
 
-.menu-icons {
-  fill: #2196f3;
-}
+// .menu-icons {
+//   fill: #2196f3;
+// }
 
 .menu-container {
   position: fixed;

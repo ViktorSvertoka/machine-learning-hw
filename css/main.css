@@ -171,12 +171,12 @@ ul {
     display: none;
   }
 }
-.menu-toggle:hover {
-  fill: #2196f3;
+.js-open-menu:hover {
+  color: #2196f3;
 }
 
-.menu-icons {
-  fill: #2196f3;
+.js-close-menu:hover {
+  color: #2196f3;
 }
 
 .menu-container {
