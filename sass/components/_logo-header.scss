@@ -1,11 +1,5 @@
-.header-logo {
-  // margin-left: 215px;
-  // width: 145px;
-
-  @media screen and (min-width: 480px) {
-    margin-left: 50px;
-  }
-}
+// .header-logo {
+// }
 
 .header-logo__black-part {
   color: $accent-text-color;
@@ -25,4 +19,30 @@
   line-height: 1.2;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+@media screen and (min-width: 480px) {
+  .header-logo {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left: 15px;
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-logo {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-left: 215px;
+    margin-right: 93px;
+  }
 }

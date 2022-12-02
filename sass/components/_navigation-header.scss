@@ -3,11 +3,16 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
-  // margin-left: 93px;
 
-  // &__item:not(:last-child) {
-  //   margin-right: 50px;
-  // }
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-navigation {
+    display: none;
+  }
 }
 
 .header-navigation__link {
