@@ -69,6 +69,14 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.menu-icons__cross:hover {
+  fill: #2196f3;
+}
+
+.menu-icons__menu:hover {
+  fill: #2196f3;
+}
+
 .menu-container {
   position: fixed;
   top: 0;
@@ -173,8 +181,9 @@
 
 .mobile-social {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  // align-items: center;
+  // justify-content: center;
+  margin-left: 40px;
 }
 
 .mobile-social__item {
@@ -197,4 +206,11 @@
   &__link:last-child {
     margin-right: 0;
   }
+}
+
+.mobile-social__separator {
+  text-align: center;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+  margin-right: 15px;
 }
