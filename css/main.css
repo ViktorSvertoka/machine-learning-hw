@@ -171,8 +171,7 @@ ul {
     display: none;
   }
 }
-.menu-toggle:hover,
-.menu-toggle:focus {
+.menu-toggle:hover {
   fill: #2196f3;
 }
 
