@@ -82,26 +82,12 @@
             </li>
           </ul>
           <!-- header menu -->
-          <button
-            class="menu-toggle js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg
-              class="menu-icons"
-              width="40px"
-              height="40px"
-              fill="currentColor"
-              aria-label="перемикач мобільного меню"
+          <div class="menu-box">
+            <button
+              class="menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
             >
-              <use
-                class="menu-icons__cross"
-                href="./images/icons.svg#menu-open"
-              ></use>
-            </svg>
-          </button>
-          <div class="menu-container js-menu-container" id="mobile-menu">
-            <button class="menu-toggle js-close-menu">
               <svg
                 class="menu-icons"
                 width="40px"
@@ -110,63 +96,79 @@
                 aria-label="перемикач мобільного меню"
               >
                 <use
-                  class="menu-icons__menu"
-                  href="./images/icons.svg#menu-close"
+                  class="menu-icons__cross"
+                  href="./images/icons.svg#menu-open"
                 ></use>
               </svg>
             </button>
-            <!-- container menu -->
-            <ul class="menu-mobile-list">
-              <li class="menu-mobile-list__item">
-                <a
-                  class="menu-mobile-list__link menu-mobile-list__link--active"
-                  href="./index.html"
-                  >Студія</a
+            <div class="menu-container js-menu-container" id="mobile-menu">
+              <button class="menu-toggle js-close-menu">
+                <svg
+                  class="menu-icons"
+                  width="40px"
+                  height="40px"
+                  fill="currentColor"
+                  aria-label="перемикач мобільного меню"
                 >
-              </li>
-              <li class="menu-mobile-list__item">
-                <a
-                  class="menu-mobile-list__link menu-mobile-list__link--active"
-                  href="./portfolio.html"
-                  >Портфоліо</a
-                >
-              </li>
-              <li class="menu-mobile-list__item">
-                <a
-                  class="menu-mobile-list__link menu-mobile-list__link--active"
-                  href="##"
-                  >Контакти</a
-                >
-              </li>
-            </ul>
-            <div class="menu-contacts">
-              <a
-                href="tel:+380961111111"
-                class="menu-contacts__tel menu-contacts__tel--active"
-                >+38 096 111 11 11</a
-              >
-              <a
-                href="mailto:info@devstudio.com"
-                class="menu-contacts__mail menu-contacts__mail--active"
-                >info@devstudio.com</a
-              >
-              <ul class="mobile-social">
-                <li class="mobile-social__item">
-                  <a href="##" class="mobile-social__link">Instagram</a>
-                  <span class="mobile-social__separator"></span>
+                  <use
+                    class="menu-icons__menu"
+                    href="./images/icons.svg#menu-close"
+                  ></use>
+                </svg>
+              </button>
+              <!-- container menu -->
+              <ul class="menu-mobile-list">
+                <li class="menu-mobile-list__item">
+                  <a
+                    class="menu-mobile-list__link menu-mobile-list__link--active"
+                    href="./index.html"
+                    >Студія</a
+                  >
                 </li>
-                <li class="mobile-social__item">
-                  <a href="##" class="mobile-social__link">Twitter</a>
-                  <span class="mobile-social__separator"></span>
+                <li class="menu-mobile-list__item">
+                  <a
+                    class="menu-mobile-list__link menu-mobile-list__link--active"
+                    href="./portfolio.html"
+                    >Портфоліо</a
+                  >
                 </li>
-                <li class="mobile-social__item">
-                  <a href="##" class="mobile-social__link">Facebook</a>
-                  <span class="mobile-social__separator"></span>
-                </li>
-                <li class="mobile-social__item">
-                  <a href="##" class="mobile-social__link">LinkedIn</a>
+                <li class="menu-mobile-list__item">
+                  <a
+                    class="menu-mobile-list__link menu-mobile-list__link--active"
+                    href="##"
+                    >Контакти</a
+                  >
                 </li>
               </ul>
+              <div class="menu-contacts">
+                <a
+                  href="tel:+380961111111"
+                  class="menu-contacts__tel menu-contacts__tel--active"
+                  >+38 096 111 11 11</a
+                >
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="menu-contacts__mail menu-contacts__mail--active"
+                  >info@devstudio.com</a
+                >
+                <ul class="mobile-social">
+                  <li class="mobile-social__item">
+                    <a href="##" class="mobile-social__link">Instagram</a>
+                    <span class="mobile-social__separator"></span>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a href="##" class="mobile-social__link">Twitter</a>
+                    <span class="mobile-social__separator"></span>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a href="##" class="mobile-social__link">Facebook</a>
+                    <span class="mobile-social__separator"></span>
+                  </li>
+                  <li class="mobile-social__item">
+                    <a href="##" class="mobile-social__link">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </nav>

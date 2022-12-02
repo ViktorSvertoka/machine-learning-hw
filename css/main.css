@@ -56,6 +56,15 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .header-logo__black-part {
   color: #000000;
   font-family: "Raleway";
@@ -81,6 +90,7 @@ ul {
     margin-top: 16px;
     margin-bottom: 16px;
     margin-left: 15px;
+    margin-right: 276px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -173,6 +183,12 @@ ul {
 
 .header-contacts__phone-icon {
   margin-right: 10px;
+}
+
+.menu-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .menu-toggle {
