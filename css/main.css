@@ -171,11 +171,6 @@ ul {
     display: none;
   }
 }
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
 .menu-icons {
   fill: #2196f3;
 }
