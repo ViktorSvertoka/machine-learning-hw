@@ -1,3 +1,10 @@
+.customers-bg {
+  @media screen and (min-width: 480px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .customers__title {
   font-weight: 700;
   font-size: 36px;
@@ -5,12 +12,24 @@
   text-align: center;
   // margin-bottom: 50px;
   // margin-top: 0;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 30px;
+  }
 }
 
-// .customers__list {
-//   display: flex;
-//   align-items: center;
-// }
+.customers__list {
+  display: flex;
+  align-items: center;
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
 
 // .customers__item {
 //   margin-right: 30px;
