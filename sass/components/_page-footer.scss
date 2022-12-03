@@ -5,10 +5,16 @@
   background-color: $bg-color-black;
   display: flex;
   align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-container {
   display: flex;
+
+  @media screen and (min-width: 480px) {
+    display: block;
+  }
 }
 
 // .address-block {

@@ -1,7 +1,12 @@
-// .join-in {
-//   margin-top: 72px;
-//   margin-right: 93px;
-// }
+.join-in {
+  margin-top: 72px;
+  margin-right: 93px;
+
+  @media screen and (min-width: 480px) {
+    margin-top: 60px;
+    margin-right: 0;
+  }
+}
 
 .join-in__title {
   color: $primary-white-color;
@@ -14,12 +19,17 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
 
-// .join-in__list {
-//   display: flex;
-//   justify-content: center;
-// }
+.join-in__list {
+  display: flex;
+  justify-content: center;
+}
 
 .join-in__link {
   padding: 0;
