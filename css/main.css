@@ -554,6 +554,14 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px;
 }
+@media screen and (min-width: 480px) {
+  .modal {
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
 
 .modal__button-close {
   position: absolute;

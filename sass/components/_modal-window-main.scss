@@ -30,6 +30,12 @@
   padding: 8px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px;
+
+  @media screen and (min-width: 480px) {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .modal__button-close {
