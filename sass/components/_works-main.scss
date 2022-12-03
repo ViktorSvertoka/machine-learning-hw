@@ -1,5 +1,9 @@
 .works-bg {
   background-color: $primary-white-color;
+
+  @media screen and (min-width: 480px) {
+    display: none;
+  }
 }
 
 .works {
