@@ -18,6 +18,13 @@
   margin-right: auto;
   margin-left: auto;
   background-color: $bg-color-black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -59,6 +66,8 @@
   }
 
   @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    height: 600px;
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
@@ -77,21 +86,6 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../../images/foto1-desktop2x.jpg);
-  }
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  // width: 480px;
-  height: 400px;
-
-  @media screen and (min-width: 1200px) {
-    max-width: 1600px;
-    height: 600px;
-    // padding-top: 200px;
   }
 }
 
