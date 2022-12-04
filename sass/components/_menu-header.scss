@@ -8,7 +8,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -25,15 +24,15 @@
 }
 
 // .menu-toggle:hover {
-//   color: #2196f3;
+//   color: $accent-color;
 // }
 
 .js-open-menu:hover {
-  color: #2196f3;
+  color: $accent-color;
 }
 
 .js-close-menu:hover {
-  color: #2196f3;
+  color: $accent-color;
 }
 
 .menu-container {
@@ -43,7 +42,7 @@
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  background-color: #ffffff;
+  background-color: $primary-white-color;
   z-index: 999;
 
   transform: translateX(100%);
@@ -58,7 +57,7 @@
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #212121;
+  color: $primary-text-color;
 }
 
 .menu-mobile-list {
@@ -81,12 +80,12 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
-  color: #212121;
+  color: $primary-text-color;
   text-decoration: none;
 
   &--active:hover,
   &--active:focus {
-    color: #2196f3;
+    color: $accent-color;
   }
 }
 
@@ -101,12 +100,9 @@
   font-weight: 500;
   font-size: 34px;
   line-height: 1.17;
-
-  color: #2196f3;
-
+  color: $accent-color;
   margin-left: 40px;
   margin-top: 306px;
-
   text-decoration: none;
 }
 
@@ -116,12 +112,9 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 1.16;
-
-  color: #757575;
-
+  color: $title-text-color;
   margin-left: 40px;
   margin-top: 32px;
-
   text-decoration: none;
 }
 
@@ -140,11 +133,8 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
-
-  color: #2196f3;
-
+  color: $accent-color;
   text-decoration: none;
-
   margin-right: 20px;
 
   &__link:last-child {
