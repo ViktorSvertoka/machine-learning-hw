@@ -1,9 +1,9 @@
-// .gallery {
-//   display: flex;
-//   flex-wrap: wrap;
-//   align-items: center;
-//   gap: 30px;
-// }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
 
 .gallery__item {
   flex-basis: calc((100% - 60px) / 3);
