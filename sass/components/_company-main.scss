@@ -22,7 +22,7 @@
 }
 
 .company__list {
-  display: flexbox;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
@@ -32,6 +32,11 @@
   width: 100%;
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 2 * 30px) / 2);
+    width: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // gap: 30px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -61,6 +66,12 @@
     height: 120px;
     margin-bottom: 30px;
   }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
 }
 
 .company__title {
@@ -79,6 +90,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 16px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .company__text {
@@ -94,6 +113,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 50px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
   }
