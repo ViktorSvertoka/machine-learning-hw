@@ -31,6 +31,14 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 .team__item {
@@ -47,6 +55,10 @@
 
   @media screen and (min-width: 480px) {
     width: 450px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
   }
 }
 

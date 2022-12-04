@@ -1193,6 +1193,22 @@ img {
     padding-right: 0;
   }
 }
+@media screen and (min-width: 768px) {
+  .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+  }
+}
 
 .team__item {
   width: 270px;
@@ -1204,6 +1220,11 @@ img {
 @media screen and (min-width: 480px) {
   .team__item {
     width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__item {
+    width: 354px;
   }
 }
 
