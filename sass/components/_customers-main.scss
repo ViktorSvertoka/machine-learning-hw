@@ -29,6 +29,11 @@
     justify-content: center;
     gap: 30px;
   }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 // .customers__item {
@@ -43,8 +48,8 @@
   display: block;
   border: 1px solid $bdr-color-sand;
   border-radius: 4px;
-  // width: 170px;
-  // height: 92px;
+  width: 170px;
+  height: 92px;
   fill: $bdr-color-sand;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -54,8 +59,32 @@
     border-color: $accent-color;
     fill: $accent-color;
   }
+
+  @media screen and (min-width: 480px) {
+    width: 210px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
 }
 
 .customers__icon {
   margin: 16px 32px;
+
+  @media screen and (min-width: 480px) {
+    margin: 16px 52px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 16px 60px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 16px 32px;
+  }
 }
