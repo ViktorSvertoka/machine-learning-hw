@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media screen and (min-width: 1200px) {
+    align-items: flex-start;
+  }
 }
 
 .address {
@@ -16,6 +20,10 @@
   // margin-top: 0;
   // margin-bottom: 60px;
   // margin-left: 215px;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .address__item {
@@ -28,6 +36,10 @@
   @media screen and (min-width: 480px) {
     margin-bottom: 12px;
     text-align: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
   }
 }
 

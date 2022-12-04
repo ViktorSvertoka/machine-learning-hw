@@ -11,6 +11,12 @@
     margin-top: 0;
     margin-right: 0;
   }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    margin-right: 93px;
+    margin-left: 70px;
+  }
 }
 
 .join-in__title {
@@ -28,6 +34,10 @@
   @media screen and (min-width: 480px) {
     margin-bottom: 20px;
     text-align: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
   }
 }
 
