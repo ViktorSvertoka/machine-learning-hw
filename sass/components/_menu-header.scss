@@ -27,12 +27,16 @@
 //   color: $accent-color;
 // }
 
-.js-open-menu:hover {
+.js-open-menu:hover,
+.js-open-menu:focus {
   color: $accent-color;
+  fill: $accent-color;
 }
 
-.js-close-menu:hover {
+.js-close-menu:hover,
+.js-close-menu:focus {
   color: $accent-color;
+  fill: $accent-color;
 }
 
 .menu-container {
@@ -41,7 +45,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
+  // padding: 32px;
   background-color: $primary-white-color;
   z-index: 999;
 
@@ -63,14 +67,15 @@
 .menu-mobile-list {
   display: flex;
   flex-direction: column;
+  margin-top: 32px;
 }
 
 .menu-mobile-list__item {
   margin-left: 40px;
   margin-bottom: 32px;
 
-  &__item:last-child {
-    margin-bottom: 0;
+  &__item:not(:last-child) {
+    margin-bottom: 32px;
   }
 }
 
@@ -102,7 +107,7 @@
   line-height: 1.17;
   color: $accent-color;
   margin-left: 40px;
-  margin-top: 306px;
+  margin-top: 200px;
   text-decoration: none;
 }
 
