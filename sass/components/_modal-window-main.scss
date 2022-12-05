@@ -254,6 +254,16 @@
   line-height: 1.71;
   color: $accent-color;
   margin-left: 2px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 10px;
+    line-height: 1.11;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal-submit {

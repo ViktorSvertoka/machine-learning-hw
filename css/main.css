@@ -500,8 +500,8 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero-m1x.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero-m1x.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-m1x.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-m1x.jpg");
 }
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero-bg {
@@ -927,6 +927,18 @@ img {
   line-height: 1.71;
   color: #2196f3;
   margin-left: 2px;
+}
+@media screen and (min-width: 480px) {
+  .modal-block__link-terms {
+    font-size: 10px;
+    line-height: 1.11;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-block__link-terms {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal-submit {
