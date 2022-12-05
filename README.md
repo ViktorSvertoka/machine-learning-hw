@@ -241,6 +241,21 @@ position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding:
 
 ---
 
+visually-hidden { position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+
+}
+
+---
+
 scss > settings.json
 
 { "liveSassCompile.settings.formats": [ { "format": "expanded", "extensionName":
