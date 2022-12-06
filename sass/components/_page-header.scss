@@ -5,6 +5,13 @@
   border-bottom: 1px solid $bdr-color-white;
   // position: fixed;
 
+  @media screen and (min-width: 320px) {
+    margin-right: auto;
+    margin-left: auto;
+    width: 320px;
+    height: 60px;
+  }
+
   @media screen and (min-width: 480px) {
     margin-right: auto;
     margin-left: auto;
@@ -37,6 +44,15 @@
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+
+  @media screen and (min-width: 320px) {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    // width: 480px;
+    // height: 60px;
+  }
 
   @media screen and (min-width: 480px) {
     padding-left: 15px;

@@ -145,6 +145,13 @@
   &__link:last-child {
     margin-right: 0;
   }
+
+  @media screen and (min-width: 320px) {
+    margin-right: 20px;
+
+    font-size: 11px;
+    line-height: 1.22;
+  }
 }
 
 .mobile-social__separator {
