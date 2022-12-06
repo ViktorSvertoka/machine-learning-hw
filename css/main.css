@@ -519,6 +519,13 @@ img {
     line-height: 1.22;
   }
 }
+@media screen and (min-width: 480px) {
+  .mobile-social__link {
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
 
 .mobile-social__separator {
   text-align: center;
