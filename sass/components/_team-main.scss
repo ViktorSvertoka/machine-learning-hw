@@ -1,6 +1,11 @@
 .team-bg {
   background-color: $bg-color-white;
 
+  @media screen and (min-width: 320px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   @media screen and (min-width: 480px) {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -13,6 +18,13 @@
   line-height: 1.17;
   text-align: center;
   // margin-bottom: 50px;
+
+  @media screen and (min-width: 320px) {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.18;
+  }
+
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
     font-size: 28px;
@@ -26,6 +38,11 @@
   padding-right: 15px;
   // display: flex;
   // align-items: center;
+
+  @media screen and (min-width: 320px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   @media screen and (min-width: 480px) {
     padding-left: 0;
@@ -58,6 +75,10 @@
   //   margin: 0;
   // }
 
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
   @media screen and (min-width: 480px) {
     width: 450px;
   }
@@ -76,6 +97,11 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  @media screen and (min-width: 320px) {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
 
   @media screen and (min-width: 480px) {
     margin-top: 30px;

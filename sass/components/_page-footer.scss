@@ -12,6 +12,10 @@
 .footer-container {
   display: flex;
 
+  @media screen and (min-width: 320px) {
+    display: block;
+  }
+
   @media screen and (min-width: 480px) {
     display: block;
   }

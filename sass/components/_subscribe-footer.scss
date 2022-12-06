@@ -1,6 +1,13 @@
 .subscribe {
   margin-top: 72px;
 
+  @media screen and (min-width: 320px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   @media screen and (min-width: 480px) {
     display: flex;
     flex-direction: column;
@@ -33,6 +40,13 @@
 }
 
 .subscribe__form {
+  @media screen and (min-width: 320px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   @media screen and (min-width: 480px) {
     display: flex;
     flex-direction: column;
@@ -67,6 +81,14 @@
   justify-content: center;
   align-items: center;
 
+  @media screen and (min-width: 320px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
   @media screen and (min-width: 480px) {
     display: flex;
     flex-direction: column;
@@ -95,6 +117,11 @@
   justify-content: center;
   fill: $primary-white-color;
   cursor: pointer;
+
+  @media screen and (min-width: 320px) {
+    margin-right: auto;
+    margin-left: auto;
+  }
 
   @media screen and (min-width: 480px) {
     margin-right: auto;

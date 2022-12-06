@@ -13,6 +13,10 @@
   // margin-bottom: 50px;
   // margin-top: 0;
 
+  @media screen and (min-width: 320px) {
+    margin-bottom: 30px;
+  }
+
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
   }
@@ -21,6 +25,14 @@
 .customers__list {
   display: flex;
   align-items: center;
+
+  @media screen and (min-width: 320px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
 
   @media screen and (min-width: 480px) {
     display: flex;
@@ -60,6 +72,10 @@
     fill: $accent-color;
   }
 
+  @media screen and (min-width: 320px) {
+    width: 150px;
+  }
+
   @media screen and (min-width: 480px) {
     width: 210px;
   }
@@ -74,6 +90,10 @@
 }
 
 .customers__icon {
+  @media screen and (min-width: 320px) {
+    margin: 16px 26px;
+  }
+
   @media screen and (min-width: 480px) {
     margin: 16px 52px;
   }

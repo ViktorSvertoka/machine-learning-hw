@@ -4,6 +4,10 @@
   // margin-bottom: 20px;
   // margin-left: 215px;
 
+  @media screen and (min-width: 320px) {
+    margin-bottom: 28px;
+  }
+
   @media screen and (min-width: 480px) {
     margin-bottom: 28px;
   }
