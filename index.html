@@ -92,7 +92,6 @@
                 class="menu-icons"
                 width="40px"
                 height="40px"
-                fill="currentColor"
                 aria-label="перемикач мобільного меню"
               >
                 <use
@@ -102,12 +101,15 @@
               </svg>
             </button>
             <div class="menu-container js-menu-container" id="mobile-menu">
-              <button class="menu-toggle js-close-menu">
+              <button
+                class="menu-toggle js-close-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+              >
                 <svg
                   class="menu-icons"
                   width="40px"
                   height="40px"
-                  fill="currentColor"
                   aria-label="перемикач мобільного меню"
                 >
                   <use

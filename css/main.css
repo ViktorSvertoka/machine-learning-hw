@@ -382,6 +382,10 @@ img {
     display: none;
   }
 }
+.menu-toggle:hover {
+  color: #2196f3;
+}
+
 .js-open-menu:hover,
 .js-open-menu:focus {
   color: #2196f3;
