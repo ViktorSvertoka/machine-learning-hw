@@ -251,10 +251,13 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.header-navigation__link--active:hover, .header-navigation__link--active:focus {
+.header-navigation__link--active:hover {
   color: #2196f3;
 }
-.header-navigation__link--active::after {
+.header-navigation__link--current {
+  color: #2196f3;
+}
+.header-navigation__link--current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -268,7 +271,7 @@ img {
   background-color: #2196f3;
   border-radius: 2px;
 }
-.header-navigation__link--active:hover::after {
+.header-navigation__link--current::after {
   opacity: 1;
 }
 

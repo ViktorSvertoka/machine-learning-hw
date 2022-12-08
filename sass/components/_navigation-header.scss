@@ -27,12 +27,15 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  &--active:hover,
-  &--active:focus {
+  &--active:hover {
     color: $accent-color;
   }
 
-  &--active::after {
+  &--current {
+    color: $accent-color;
+  }
+
+  &--current::after {
     content: '';
     position: absolute;
     left: 0;
@@ -46,7 +49,7 @@
     border-radius: 2px;
   }
 
-  &--active:hover::after {
+  &--current::after {
     opacity: 1;
   }
 }
