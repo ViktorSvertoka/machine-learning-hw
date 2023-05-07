@@ -1,4 +1,4 @@
-.team-bg {
+.team {
   background-color: $bg-color-white;
 
   @media screen and (min-width: 320px) {
@@ -12,7 +12,7 @@
   }
 }
 
-.team-title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -32,7 +32,7 @@
   }
 }
 
-.team {
+.team__list {
   // width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
